@@ -25,6 +25,25 @@ YFM에서 정의한 제목을 이중 괄호 구문으로 본문에 추가할 수
 이 글의 제목은 {{ page.title }}이고 
 마지막으로 수정된 시간은 {{ page.last_modified_at }}이다.
 
+```python
+class Dog:
+
+    def __init__(self, name):
+        self._name = name
+
+    @property
+    def name(self):
+        return self._name
+
+    @name.setter
+    def name(self, new_name):
+        self._name = new_name
+
+    @name.deleter
+    def name(self):
+        del self._name
+```
+
 # 오우
 
 ## 에이

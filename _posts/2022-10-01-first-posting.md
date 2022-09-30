@@ -5,6 +5,7 @@ excerpt: "GitHub Blog 서비스인 github.io 블로그 시작하기로 했다."
 categories:
   - posting
 tags: [git, blog, jekyll]
+toc: true
 
 last_modified_at: 2022-10-01T08:06:00-05:00
 ---
@@ -20,6 +21,16 @@ YFM에서 정의한 제목을 이중 괄호 구문으로 본문에 추가할 수
 마지막으로 수정된 시간은 {{ page.last_modified_at }}이다.
 
 # 오우
+
+## 에이
+
+### 우우
+
+# 목차 테스트
+
+## 테스트1
+### 테스트2
+## 테스트3
 
 **Hello World**
 

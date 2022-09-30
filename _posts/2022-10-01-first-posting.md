@@ -4,8 +4,8 @@ excerpt: "GitHub Blog 서비스인 github.io 블로그 시작하기로 했다."
 
 categories:
   - posting
-tags:
-  - git
+tags: [git, blog, jekyll]
+
 last_modified_at: 2022-10-01T08:06:00-05:00
 ---
 

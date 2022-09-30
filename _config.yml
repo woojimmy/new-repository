@@ -20,14 +20,14 @@ title                    : "Woojin's blog"
 title_separator          : "-"
 subtitle                 : "Dreaming to be a good developer"
 name                     : "Woojin Lim"
-description              : "Just do it."
+description              : "우보천리."
 url                      : "https://woojimmy.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "woojimmy/woojimmy.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/ideacolor.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
@@ -104,10 +104,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Woojin Lim"
-  avatar           : "/assets/image/keyboard-geff46db78_1920.jpg"
+  name             : "임 우 진"
+  avatar           : "/assets/images/keyboard-geff46db78_1920.jpg"
   bio              : "Never stop to learn"
-  location         : "Seoul"
+  location         : "Seoul, Republic of Korea"
 
   links:
     - label: "Email"
@@ -290,5 +290,8 @@ defaults:
       comments: # true
       share: true
       related: true
+      show_date: true
+
+date_format: "%Y-%m-%d"
 
 future: true

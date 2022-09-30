@@ -6,8 +6,13 @@ categories:
   - posting
 tags: [git, blog, jekyll]
 toc: true
+author_profile: true 
+sidebar:
+   nav: "docs"
+  #만약 이 포스팅이 검색되지 않길 원한다면 밑에 search: false를 입력
 
 last_modified_at: 2022-10-01T08:06:00-05:00
+
 ---
 
 GitHub Blog 서비스인 github.io 블로그 시작하기로 했다.

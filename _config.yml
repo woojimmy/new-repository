@@ -107,8 +107,8 @@ author:
   name             : "Woojin Lim"
   avatar           : "/assets/image/keyboard-geff46db78_1920"
   bio              : "Never stop to learn"
-  # location         : "Somewhere"
-  email            :
+  location         : "Seoul"
+
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"

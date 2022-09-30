@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "Woojin's blog"
+title                    : "Woojin's Dev Blog"
 title_separator          : "-"
 subtitle                 : "Dreaming to be a good developer"
 name                     : "Woojin Lim"

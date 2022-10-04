@@ -9,12 +9,6 @@ search: false
 @import "minimal-mistakes"; // main partials
 
 
-@font-face {
-	font-family: 'Nanum Gothic Coding';
-	src: url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
-	font-weight: normal;
-	font-style: normal;
-}
 
-body {
-	font-family: 'Nanum Gothic Coding';
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+	

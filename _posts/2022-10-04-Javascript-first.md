@@ -73,7 +73,7 @@ var example; // B
 example = 75; // C
 console.log(example); // D
 ```
-![assignment](/images/capture2.png)<br>
+![assignment](../assets/images/capture2.png)<br>
 위에서는 2가지 값이 나온다. 이 값들은 <span style="color:cornflowerblue">console.log(example);</span>의 값이며, 하나는 'undefined', 다른 하나는 75가 출력되었다. 만약 선언(**B**) 이후 런타임 이전에 할당(**C**)이 실행되었다면 **A**의 console.log 또한 75의 값이 출력되어야 한다. 그러나 **A**는 'undefined'가 출력되었고, 이는 example이라는 변수가 아직 값을 할당받지 못했다는 것을 의미한다. 반면에 **D**의 console.log는 75라는 값을 할당받았기에 위 코드의 진행 순서는 다음과 같다.
 ```javascript
 console.log(example); // A ----- 2번째

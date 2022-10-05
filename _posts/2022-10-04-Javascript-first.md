@@ -73,7 +73,7 @@ var example; // B
 example = 75; // C
 console.log(example); // D
 ```
-![assignment](../assets/images/2022-10-06/capture2.png)<br>
+![assignment](../assets/images/capture2.png)<br>
 위에서는 2가지 값이 나온다. 이 값들은 <span style="color:cornflowerblue">console.log(example);</span>의 값이며, 하나는 'undefined', 다른 하나는 75가 출력되었다. 만약 선언(**B**) 이후 런타임 이전에 할당(**C**)이 실행되었다면 **A**의 console.log 또한 75의 값이 출력되어야 한다. 그러나 **A**는 'undefined'가 출력되었고, 이는 example이라는 변수가 아직 값을 할당받지 못했다는 것을 의미한다. 반면에 **D**의 console.log는 75라는 값을 할당받았기에 위 코드의 진행 순서는 다음과 같다.
 ```javascript
 console.log(example); // A ----- 2번째
@@ -91,7 +91,7 @@ console.log(example);
 example = 95;
 console.log(example);
 ```
-![const1](../assets/images/2022-10-06/capture3.png)<br>
+![const1](../assets/images/capture3.png)<br>
 첫 번째에서 변수 example은 75라는 값을 할당받았고, 정상적으로 출력되었다. 두 번째에서 변수에 할당된 값을 95로 바꿔도 문제 없이 작동했다. 이처럼 <span style="color:cornflowerblue">**var**</span> 키워드로 선언한 변수는 선언과 동시에 'undefined'로 초기화 되기 때문에 재할당이 가능하다.(애초에 "변수"이지 않은가)<br> 그러나 재할당을 금지시킬 수도 있다. 이러한 것을 <span style="color:cornflowerblue">**'상수(constant)'**</span>라고 하며, 단 한 번만 할당받을 수 있는 변수를 말한다. 상수를 입력하기 위해서는 <span style="color:cornflowerblue">**const**</span>키워드를 사용한다. 아래 코드를 보자
 ```javascript
 const example = 75;
@@ -99,7 +99,7 @@ console.log(example);
 example = 95;
 console.log(example);
 ```
-![const2](../assets/images/2022-10-06/capture4.png)
+![const2](../assets/images/capture4.png)
 <span style="color:cornflowerblue">**const**</span>키워드를 사용하여 선언된 변수는 재할당이 금지된다. 그렇기 때문에 변수 example은 처음 할당된 75는 정상적으로 출력되었지만, 95로 재할당하고자 했을 때는 이는 이미 상수가 되었기 때문에 에러가 발생했다. 그리고 변수 example의 값을 확인하니 처음 할당된 '75'가 변하지 않았음을 알 수 있다.
 
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Javascript 기초 이론 - 변수(Variable)"
-excerpt: "Javascript의 이론 중 '변수'에 대해 다뤄보자."
+excerpt: "Javascript의 '변수'에 대해 기초적인 지식을 다뤄보자."
 
 categories: 
   - posting
@@ -99,7 +99,7 @@ console.log(example);
 example = 95;
 console.log(example);
 ```
-<img src="/assets/images/20221006/capture4.png">
+<img src="/assets/images/20221006/capture4.png"><br>
 <span style="color:cornflowerblue">**const**</span>키워드를 사용하여 선언된 변수는 재할당이 금지된다. 그렇기 때문에 변수 example은 처음 할당된 75는 정상적으로 출력되었지만, 95로 재할당하고자 했을 때는 이는 이미 상수가 되었기 때문에 에러가 발생했다. 그리고 변수 example의 값을 확인하니 처음 할당된 '75'가 변하지 않았음을 알 수 있다.
 
 ---

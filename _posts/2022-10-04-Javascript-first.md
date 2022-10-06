@@ -111,4 +111,3 @@ console.log(example);
 네이밍 규칙 게시글 링크↓<br>
 <a href="https://woojimmy.github.io/posting/javascript-variable-name/" target="_blank">변수 네이밍(variable naming)규칙</a>
 
-[변수 네이밍(variable naming)규칙](https://woojimmy.github.io/posting/javascript-variable-name/)

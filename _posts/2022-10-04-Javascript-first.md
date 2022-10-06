@@ -109,4 +109,6 @@ console.log(example);
 > 원래 식별자 이름 짓는 규칙까지 이번 글에서 작성하려 했으나, 글이 생각보다 길어졌다... ㅎㅎ;; ~~이번엔 여기서 마치고 식별자 네이밍은 다음에 다시 작성해 링크로 걸어야겠다.~~ 잔디 화이팅~~!!
 
 네이밍 규칙 게시글 링크↓<br>
+<a href="https://woojimmy.github.io/posting/javascript-variable-name/" target="_blank">변수 네이밍(variable naming)규칙</a>
+
 [변수 네이밍(variable naming)규칙](https://woojimmy.github.io/posting/javascript-variable-name/)

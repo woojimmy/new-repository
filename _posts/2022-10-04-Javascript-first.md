@@ -3,7 +3,7 @@ title: "Javascript 기초 이론 - 변수(Variable)"
 excerpt: "Javascript의 '변수'에 대해 기초적인 지식을 다뤄보자."
 
 categories: 
-  - posting
+  - Javascript
 tags: [Javascript, theory, variable]
 toc: true
 author_profile: true 

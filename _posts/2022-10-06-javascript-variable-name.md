@@ -3,7 +3,7 @@ title: "Javascript 기초 이론 - 변수 네이밍(Variable Naming) "
 excerpt: "Javascript에서 변수 이름은 어떠한 규칙을 가지고 있는지 알아보자."
 
 categories: 
-  - posting
+  - Javascript
 tags: [Javascript, theory, variable]
 toc: true
 author_profile: true 

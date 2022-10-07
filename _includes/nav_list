@@ -1,11 +1,69 @@
-{% assign navigation = site.data.navigation[include.nav] %}
+<!--{% assign navigation = site.data.navigation[include.nav] %}
+-->
+
+{% assign sum = site.posts | size %}
 
 <nav class="nav__list">
-  {% if page.sidebar.title %}<h3 class="nav__title" style="padding-left: 0;">{{ page.sidebar.title }}</h3>{% endif %}
+  <!--{% if page.sidebar.title %}<h3 class="nav__title" style="padding-left: 0;">{{ page.sidebar.title }}</h3>{% endif %}
+  -->
   <input id="ac-toc" name="accordion-toc" type="checkbox" />
   <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle Menu" }}</label>
-  <ul class="nav__items">
-    {% for nav in navigation %}
+  <nav class="nav__items" id="category_tag_menu">
+    <li>
+      전체 글 수 {{sum}} 개
+    </li>
+    <li>
+      <span class="nav__sub-title">Theory</span>
+      <ul>
+        {% for category in site.categories %}
+                    {% if category[0] == "Javascript" %}
+                        <li><a href="/categories/Javascript" class="">Javascript ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+      </ul>
+      <ul>
+        {% for category in site.categories %}
+            {% if category[0] == "HTML" %}
+                <li><a href="/categories/HTML" class="">HTML ({{category[1].size}})</a></li>
+            {% endif %}
+        {% endfor %}
+      </ul>
+      <ul>
+        {% for category in site.categories %}
+            {% if category[0] == "CSS" %}
+                <li><a href="/categories/CSS" class="">CSS ({{category[1].size}})</a></li>
+            {% endif %}
+        {% endfor %}
+      </ul>
+      <span class="nav__sub-title">Project</span>
+      <ul>
+        {% for category in site.categories %}
+                    {% if category[0] == "Project" %}
+                        <li><a href="/categories/Project" class="">Project ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+      </ul>
+      <span class="nav__sub-title">Git</span>
+      <ul>
+        {% for category in site.categories %}
+                    {% if category[0] == "GitPage" %}
+                        <li><a href="/categories/GitPage" class="">GitPage ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+      </ul>
+      <ul>
+        {% for category in site.categories %}
+                    {% if category[0] == "Github" %}
+                        <li><a href="/categories/Github" class="">Github ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+      </ul>
+    </li>
+  </nav>
+
+
+
+ <!--   {% for nav in navigation %}
       <li>
         {% if nav.url %}
           <a href="{{ nav.url | relative_url }}"><span class="nav__sub-title">{{ nav.title }}</span></a>
@@ -24,3 +82,5 @@
     {% endfor %}
   </ul>
 </nav>
+
+-->

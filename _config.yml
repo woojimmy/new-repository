@@ -20,7 +20,7 @@ title                    : "Woojin's Dev Blog"
 title_separator          : "-"
 subtitle                 : "Dreaming to be a good developer"
 name                     : "Woojin Lim"
-description              : "우보천리."
+description              : "아자"
 url                      : "https://woojimmy.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "woojimmy/woojimmy.github.io"
@@ -104,9 +104,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "임 우 진"
+  name             : "Woo-Jin"
   avatar           : "/assets/images/keyboard-geff46db78_1920.jpg"
-  bio              : "Never stop to learn"
+  bio              : "개발 공부 블로그 입니다~~"
   location         : "Seoul, Republic of Korea"
 
   links:

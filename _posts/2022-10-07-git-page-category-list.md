@@ -1,5 +1,5 @@
 ---
-title: "[Git Blog] - Sidebar에 목차(Category List) 추가 "
+title: "[Git Page] - Sidebar에 목차(Category List) 추가 "
 excerpt: "Git 블로그(Git Page)에서 왼쪽 sidebar에 category list를 추가해보자."
 
 categories: 

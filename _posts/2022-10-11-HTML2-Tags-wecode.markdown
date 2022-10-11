@@ -4,7 +4,7 @@ excerpt: " HTML의 구조와 많이 쓰이는 Tag들에 대해 알아보자 - we
 
 categories: 
   - HTML
-tags: [HTML, theory, wecode]
+tags: [HTML, theory, tag, wecode]
 toc: true
 author_profile: true 
 sidebar:

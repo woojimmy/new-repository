@@ -3,7 +3,7 @@ title: "[HTML] 기초 이론 - HTML의 Tags"
 excerpt: " HTML의 구조와 많이 쓰이는 Tag들에 대해 알아보자 - wecode 사전스터디."
 
 categories: 
-  - HTML
+  - HTML_CSS
 tags: [HTML, theory, tag, wecode]
 toc: true
 author_profile: true 

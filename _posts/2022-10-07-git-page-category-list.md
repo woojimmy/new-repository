@@ -12,7 +12,7 @@ sidebar:
 ---
 # Sidebar에 Category List 생성하기
 > 이 블로그는 jekyll의 minimal-mistake 테마를 적용했다.<br>
-> 본 게시물은 <a href="https://ansohxxn.github.io/blog/category/" style="color:gray">**'공부하는 식빵맘'**</a> 님의 게시글에 큰 도움을 받았다.
+> 본 게시물은 <a href="https://ansohxxn.github.io/blog/category/" style="color:gray" target="_blank">**'공부하는 식빵맘'**</a> 님의 게시글에 큰 도움을 받았다.
 
 ## <span style="color:cornflowerblue"> **1. Category 구상하기**</span>
 어떠한 Category를 설정하고, 어떻게 묶을 것인지를 미리 구상하는 것은 중요하다.

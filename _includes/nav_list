@@ -16,24 +16,17 @@
       <span class="nav__sub-title"> Theory</span>
       <ul>
         {% for category in site.categories %}
+            {% if category[0] == "HTML_CSS" %}
+                <li><a href="/categories/HTML_CSS" class="">HTML_CSS ({{category[1].size}})</a></li>
+            {% endif %}
+        {% endfor %}
+      </ul>
+      <ul>
+        {% for category in site.categories %}
                     {% if category[0] == "Javascript" %}
                         <li><a href="/categories/Javascript" class="">Javascript ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
-      </ul>
-      <ul>
-        {% for category in site.categories %}
-            {% if category[0] == "HTML" %}
-                <li><a href="/categories/HTML" class="">HTML ({{category[1].size}})</a></li>
-            {% endif %}
-        {% endfor %}
-      </ul>
-      <ul>
-        {% for category in site.categories %}
-            {% if category[0] == "CSS" %}
-                <li><a href="/categories/CSS" class="">CSS ({{category[1].size}})</a></li>
-            {% endif %}
-        {% endfor %}
       </ul>
       <span class="nav__sub-title">Project</span>
       <ul>

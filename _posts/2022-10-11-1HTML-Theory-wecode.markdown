@@ -3,7 +3,7 @@ title: "[HTML] 기초 이론 - HTML정의와 용어"
 excerpt: "HTML이란 무엇인지 알아보고, HTML에 관련된 기초 용어들(Tag, Content, Attribute, Element)들을 알아보자 - wecode 사전스터디."
 
 categories: 
-  - HTML
+  - HTML_CSS
 tags: [HTML, theory, wecode]
 toc: true
 author_profile: true 

@@ -4,7 +4,7 @@ excerpt: "CSS에서 Font Style을 적용하는 방법을 알아보자. - wecode 
 
 categories: 
   - HTML_CSS
-tags: [CSS, theory, font_style, wecode]
+tags: [CSS, theory, wecode]
 toc: true
 author_profile: true 
 sidebar:

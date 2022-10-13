@@ -54,24 +54,9 @@ blockquote {
 ## <span style="color:cornflowerblue">**그루핑(Grouping)**</span>
 CSS에는 여러 selector에 동일한 스타일을 적용하는 방법이 있다.
 ```css
-p {
-    color: green;
-}
-
-blockquote {
-    color: green;
-}
-
-div {
+.examplep, blockquote {
     color: green;
 }
 ```
-위 코드는 모두 같은 스타일을 가지고 있고, selector만 다르다.<br> 이러한 코드는 다음과 같이 하나의 코드에 작성할 수 있다.
-```css
-p, blockquote, div {
-    color: green;
-}
-```
-여러 selector를 나열하고, `,`로 각 selector를 구분해주면 된다.
 
 ---

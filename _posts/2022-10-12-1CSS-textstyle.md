@@ -74,7 +74,7 @@ HTML 코드에서는 아무리 스페이스와 엔터를 추가해도 실제 브
 
 ---
 ### <span style="color:cornflowerblue">**Space(띄어쓰기)**</span>
-HTML에서 띄어쓰기를 입력하기 위해 space를 여러번 추가하여도 하나의 space만 적용된다. 만약 다수의 space를 입력하려면 `&nsp;`를 content에 추가하면 된다.<br>
+HTML에서 띄어쓰기를 입력하기 위해 space를 여러번 추가하여도 하나의 space만 적용된다. 만약 다수의 space를 입력하려면 `&nbsp;`를 content에 추가하면 된다.<br>
 (이 부분은 Javascript와 관련된 내용이다.)
 ```html
 <p>스페이스 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;넣는 방법</p>

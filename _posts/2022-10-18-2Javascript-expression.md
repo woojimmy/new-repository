@@ -4,7 +4,7 @@ excerpt: "Javascript에서 표현식(expression)과 문(statement)의 의미와 
 
 categories: 
   - Javascript
-tags: [Javascript, theory]
+tags: [Javascript, theory, expression, statement]
 toc: true
 author_profile: true 
 sidebar:
@@ -97,7 +97,7 @@ example + 3;  //  ---6
 ---
 ## <span style="color:cornflowerblue">**문(Statement)**</span>
 **문(Statement)은 프로그램(Program)을 구성하는 기본 단위, 최소 실행 단위를 의미한다.** Statement의 집합이 Program이며, Statement를 작성하고 순서에 맞게 나열하는 것이 Programming이다. <br>
-Statement는 여러 '토큰(Token)'으로 구성된다.(Token은 아래에서 다시 알아보자 <br> '문'은 컴퓨터에 내리는 명령어로 '명령문'이라고도 부른다. <br> 또한, 문은 실행하는 역할에 따라 '선언문', '할당문', '조건문', '반복문' 등으로 구분할 수 있다. 다음 코드들로 각 문별 예시를 살펴보자.
+Statement는 여러 '토큰(Token)'으로 구성된다.(Token은 아래에서 다시 알아보자.) <br> '문'은 컴퓨터에 내리는 명령어로 '명령문'이라고도 부른다. <br> 또한, 문은 실행하는 역할에 따라 '선언문', '할당문', '조건문', '반복문' 등으로 구분할 수 있다. 다음 코드들로 각 문별 예시를 살펴보자.
 ```javascript
 //변수 선언문
 let example;

@@ -4,7 +4,7 @@ excerpt: "Javascript에서 등장하는 null과 undefine의 의미와 차이점�
 
 categories: 
   - Javascript
-tags: [Javascript, theory, wecode]
+tags: [Javascript, theory, 'null', undefined, wecode]
 toc: true
 author_profile: true 
 sidebar:

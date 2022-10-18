@@ -4,7 +4,7 @@ excerpt: " CSS에서 Inheritance & Grouping에 대해 알아보자. - wecode 사
 
 categories: 
   - HTML_CSS
-tags: [CSS, theory, wecode]
+tags: [CSS, theory, selector, wecode]
 toc: true
 author_profile: true 
 sidebar:

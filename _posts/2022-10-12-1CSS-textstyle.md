@@ -4,7 +4,7 @@ excerpt: "HTML과 CSS에서 Text Style을 적용하는 방법을 알아보자. -
 
 categories: 
   - HTML_CSS
-tags: [HTML, CSS, theory, wecode]
+tags: [HTML, CSS, theory, style, wecode]
 toc: true
 author_profile: true 
 sidebar:

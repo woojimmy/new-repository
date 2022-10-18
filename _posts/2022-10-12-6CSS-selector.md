@@ -1,16 +1,15 @@
 ---
-title: "[CSS] 기초 이론 - Selector"
-excerpt: " CSS에서 Inheritance & Grouping에 대해 알아보자. - wecode 사전스터디."
+title: "[CSS] 기초 이론 - 선택자(Selector_"
+excerpt: " CSS에서 선택자(Selector)의 정의와 특징에 대해 알아보자."
 
 categories: 
   - HTML_CSS
-tags: [CSS, theory, selector, wecode]
+tags: [CSS, theory, selector]
 toc: true
 author_profile: true 
 sidebar:
    nav: "docs"
 ---
->이 게시글은 wecode의 [사전스터디]과정을 통해 학습한 자료를 토대로 작성되었다.
 
 <br>
 

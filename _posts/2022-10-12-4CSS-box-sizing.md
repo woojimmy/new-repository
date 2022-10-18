@@ -1,16 +1,14 @@
 ---
 title: "[CSS] 기초 이론 - Box Sizing"
-excerpt: " CSS에서 Box Sizing이 무엇인지 알아보자. - wecode 사전스터디."
+excerpt: " CSS에서 Box Sizing이 무엇인지 알아보자."
 
 categories: 
   - HTML_CSS
-tags: [CSS, theory, wecode]
-toc: true
+tags: [CSS, theory]
 author_profile: true 
 sidebar:
    nav: "docs"
 ---
->이 게시글은 wecode의 [사전스터디]과정을 통해 학습한 자료를 토대로 작성되었다.
 
 <br>
 

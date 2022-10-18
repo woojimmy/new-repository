@@ -1,16 +1,15 @@
 ---
 title: "[HTML] 기초 이론 - HTML의 Attribute"
-excerpt: "Attribute의 구조 및 개념과 id, class 2가지 Attribute의 차이점을 알아보자. - wecode 사전스터디."
+excerpt: "Attribute의 구조 및 개념과 id, class 2가지 Attribute의 차이점을 알아보자."
 
 categories: 
   - HTML_CSS
-tags: [HTML, theory, attribute, wecode]
+tags: [HTML, theory, attribute]
 toc: true
 author_profile: true 
 sidebar:
    nav: "docs"
 ---
->이 게시글은 wecode의 [사전스터디]과정을 통해 학습한 자료를 토대로 작성되었다.
 
 <br>
 

@@ -1,17 +1,15 @@
 ---
 title: "[CSS] 기초 이론 - CSS의 개념과 구조"
-excerpt: "CSS의 정의, 구조 그리고 HTML에 적용하는 방법을 알아보자. - wecode 사전스터디."
+excerpt: "CSS의 정의, 구조 그리고 HTML에 적용하는 방법을 알아보자."
 
 categories: 
   - HTML_CSS
-tags: [CSS, theory, wecode]
+tags: [CSS, theory]
 toc: true
 author_profile: true 
 sidebar:
    nav: "docs"
 ---
->이 게시글은 wecode의 [사전스터디]과정을 통해 학습한 자료를 토대로 작성되었다.
-
 <br>
 
 # CSS

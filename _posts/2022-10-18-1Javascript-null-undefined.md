@@ -1,10 +1,10 @@
 ---
 title: "[Javascript] 기초 이론 - null과 undefined"
-excerpt: "Javascript에서 등장하는 null과 undefine의 의미와 차이점을 알아보자."
+excerpt: "Javascript에서 등장하는 null과 undefine의 의미와 차이점을 알아보자." 
 
 categories: 
   - Javascript
-tags: [Javascript, theory, 'null', undefined, wecode]
+tags: [Javascript, theory, 'null', undefined]
 toc: true
 author_profile: true 
 sidebar:

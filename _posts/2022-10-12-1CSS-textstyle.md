@@ -1,16 +1,15 @@
 ---
 title: "[HTML&CSS] 기초 이론 - Text Style"
-excerpt: "HTML과 CSS에서 Text Style을 적용하는 방법을 알아보자. - wecode 사전스터디."
+excerpt: "HTML과 CSS에서 Text Style을 적용하는 방법을 알아보자."
 
 categories: 
   - HTML_CSS
-tags: [HTML, CSS, theory, style, wecode]
+tags: [HTML, CSS, theory, style]
 toc: true
 author_profile: true 
 sidebar:
    nav: "docs"
 ---
->이 게시글은 wecode의 [사전스터디]과정을 통해 학습한 자료를 토대로 작성되었다.
 
 <br>
 

@@ -1,6 +1,6 @@
 ---
-title: "[Javascript] 기초 이론 - data type"
-excerpt: "Javascript에서 data type의 종류와 예시를 알아보자."
+title: "[Javascript] 기초 이론 - 데이터 타입(Data Type)"
+excerpt: "Javascript에서 Data type의 종류와 예시를 알아보자."
 
 categories: 
   - Javascript

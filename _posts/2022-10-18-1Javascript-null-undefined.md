@@ -4,7 +4,7 @@ excerpt: "Javascript에서 등장하는 null과 undefine의 의미와 차이점�
 
 categories: 
   - Javascript
-tags: [Javascript, theory, null, undefined]
+tags: [Javascript, theory, wecode]
 toc: true
 author_profile: true 
 sidebar:
@@ -47,7 +47,7 @@ console.log(secondExample); // ---null
 ```
 <img src="/assets/images/20221018/null2.png"><br>
 
-여기서 `null`과 `undefined`의 차이가 보인다. `console.log(secondExample);`에서 `null`이라는 값이 나온 것을 보면, `null`은 `undefined`처럼 value가 아예 없다는 것이 아니라, `null`자체가 **'value가 없다'라는 의미를 가진 value라는 것**이다. 만약 `null`이 `undefined`와 완전 동일하게 '값이 없음' 자체를 의미했다면 `console.log(secondExample)`에서 `undefined`가 출력되었어야 했다.
+여기서 `null`과 `undefined`의 차이가 보인다. `console.log(secondExample);`에서 `null`이라는 값이 나온 것을 보면, `null`은 `undefined`처럼 value가 아예 정의되지 않은 것이 아니라, `null`자체가 **'value가 없다'라는 의미를 가진 value라는 것**이다. 만약 `null`이 `undefined`와 완전 동일하게 '값이 없음' 자체를 의미했다면 `console.log(secondExample)`에서 `undefined`가 출력되었어야 했다.
 
 ## <span style="color:cornflowerblue">**'엄격일치연산'과 'typeof'로 확인**</span>
 아래 코드를 입력해보자

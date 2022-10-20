@@ -1,5 +1,5 @@
 ---
-title: "[CSS] 기초 이론 - 선택자(Selector_"
+title: "[CSS] 기초 이론 - 선택자(Selector)"
 excerpt: " CSS에서 선택자(Selector)의 정의와 특징에 대해 알아보자."
 
 categories: 

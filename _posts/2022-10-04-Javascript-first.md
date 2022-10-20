@@ -111,5 +111,5 @@ console.log(example);
 > 참고문헌: 모던 자바스크립트 Deep Dive - 이웅모 지음
 
 네이밍 규칙 게시글 링크↓<br>
-<a href="https://woojimmy.github.io/posting/javascript-variable-name/" target="_blank">변수 네이밍(variable naming)규칙</a>
+<a href="https://woojimmy.github.io/javascript/javascript-variable-name/" target="_blank">변수 네이밍(variable naming)규칙</a>
 

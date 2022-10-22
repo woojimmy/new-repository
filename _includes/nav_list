@@ -13,7 +13,7 @@
       전체 글 수 {{sum}} 개
     </li>
     <li>
-      <span class="nav__sub-title"> Theory</span>
+      <span class="nav__sub-title">Front-end</span>
       <ul>
         {% for category in site.categories %}
             {% if category[0] == "HTML_CSS" %}

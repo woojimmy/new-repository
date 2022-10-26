@@ -66,4 +66,56 @@ console.log(number3); // --- 43456
 
 ## 다른 연산자는??
 console.log들을 쳐보면서 다른 연산자도 `+`와 동일하게 작동하는지 궁금해졌다.
-### '-' 연산자
+### '-' 
+```javascript
+let number4 = 2 + 2 - '2' + 3;
+let number5 = 3 - 2 + '2' + 3;
+let number6 = '2' - 2 + 3;
+let number7 = '2' + 2 - 2 + 3;
+
+console.log(number4);  //  ---5
+console.log(number5);  //  ---123
+console.log(number6);  //  ---3
+console.log(number7);  //  ---23
+```
+왜 4번이나 했냐면,
+- number4: 연산 '중간'에 문자열이 있고, 문자열에 `-`가 붙은 경우.
+- number5: 연산 '중간'에 문자열이 있고, 문자열에 `-`가 붙지 않은 경우.
+- number6: 연산 '처음'에 문자열이 있고, 문자열에 `-`가 붙은 경우.
+- number7: 연산 '처음'에 문자열이 있고, 문자열에 `-`가 붙지 않은 경우.
+
+이렇게 4가지를 생각했다.
+```javascript
+console.log(typeof number4);  //  ---number
+console.log(typeof number5);  //  ---string
+console.log(typeof number6);  //  ---number
+console.log(typeof number7);  //  ---number
+```
+각 결과의 타입과 결과들을 보면 다음과 같은 사실을 알 수 있다.
+- 문자열에 `-`연산자가 붙으면 그 결과는 `number`로 처리된다.
+- 문자열보다 앞의 숫자 연산은 숫자로 이루어진다.
+- 문자열 뒤에 `-`연산자가 있으면 그 결과는 `number`가 된다.
+
+`number5`에서는 앞의 `3-2`가 숫자로 연산되어 `1`이란 `number`의 결과가 먼저 도출되고, 이후에 `1`과 문자열 `'2'`가 합쳐지므로 `string`으로 변환된다.
+
+### '*', '/'
+```javascript
+let number4 = 2 + 2 * '2' + 3;
+let number5 = 3 * 2 + '2' + 3;
+let number6 = '2' * 2 + 3;
+let number7 = '2' + 2 * 2 + 3;
+
+console.log(number4);  //  ---9
+console.log(number5);  //  ---623
+console.log(number6);  //  ---7
+console.log(number7);  //  ---243
+
+console.log(typeof number4);  //  ---number
+console.log(typeof number5);  //  ---string
+console.log(typeof number6);  //  ---number
+console.log(typeof number7);  //  ---string
+```
+`*`와 `/`는 동일하게 작동하므로 한 가지만 실행해봤다. 이 결과로 다음과 같은 사실을 알 수 있다.
+- 문자열에 `연산자`가 붙으면 `number`가 된다.
+- 문자열에 `연산자`가 붙지 않으면, `string`이 된다.
+중요한 점은 `-`는 문자열 뒤에 연산 중간에 있어도 그 결과가 `number`로 변환되었지만, `*`와 `/`는 `string`이 된다는 점이다. 이 차이점을 기억해두자.

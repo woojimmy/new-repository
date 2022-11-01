@@ -4,7 +4,7 @@ excerpt: "HTML에 CSS를 연결하는 두 가지 방법. 'link 방식'과 '@impo
 
 categories: 
   - HTML_CSS
-tags: [HTML, CSS, link, import]
+tags: [HTML, CSS, theory, link, import]
 toc: true
 author_profile: true 
 sidebar:

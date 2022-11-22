@@ -52,7 +52,7 @@ const loginToMainPage = () => {
 
 // loginBtnElement: 로그인 버튼 element
 // loginInputId: 아이디 입력 input element
-// loginInputPw: 비밀번호 입력 input eleme
+// loginInputPw: 비밀번호 입력 input element
 ```
 
 ## 무엇이 문제인가?

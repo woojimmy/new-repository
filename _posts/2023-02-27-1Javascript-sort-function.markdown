@@ -4,7 +4,7 @@ excerpt: "Javascript에서 sort()메서드와 이 함수 안에서 어떠한 것
 
 categories:
   - Javascript
-tags: [Javascript, theory, function, sort]
+tags: [Javascript, theory, function, sort, method]
 toc: true
 author_profile: true
 sidebar:
@@ -13,7 +13,8 @@ sidebar:
 
 # Array.sort(CompareFunction)
 
-코딩테스트 문제를 풀다가 array를 정렬해주는 `.sort()`메서드에 대해 알게 되었다. <br> 그런데, 이 함수의 parameter에 <span style="color: cornflowerblue">`compareFunction`</span>을 입력해야만 하는 상황이 있었고, 이 `compareFunction`를 이해하기 위해 브라우저에 console.log를 이용해 여러 방법으로 실행해보았다.
+코딩테스트 문제를 풀다가 array를 정렬해주는 `.sort()`메서드에 대해 알게 되었다. <br> 그런데, 이 함수의 parameter에 <span style="color: cornflowerblue">`compareFunction`</span>을 입력해야만 하는 상황이 있었고, 이 `compareFunction`를 이해하기 위해 브라우저에 console.log를 이용해 여러 방법으로 실행해보았다. <br>
+참고로 `sort()`에 대한 개념 정리 글이 아님을 미리 밝힌다.
 
 ## Array.sort()
 
